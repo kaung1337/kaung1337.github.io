@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>XSS Playground</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <h1>XSS Playground</h1>
+    <form>
+      <label for="payload">Enter your XSS payload:</label>
+      <input type="text" id="payload" name="payload">
+      <label for="tag">Choose an HTML tag:</label>
+      <select id="tag" name="tag"></select>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="result"></div>
+    <script src="xss.js"></script>
+  </body>
+</html>
